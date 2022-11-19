@@ -5,8 +5,8 @@ import discord
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('MTA0Mjg0ODc4NjczODg0Nzc3Ng.GQfEvg.24_i5_ATChjN5iqGWjfBvd0MDFDGmobKsfzRtA')
-GUILD = os.getenv('712379177034186813')
+TOKEN = os.getenv('TOKEN')
+GUILD = os.getenv('GUILD')
 
 client = discord.Client()
 
